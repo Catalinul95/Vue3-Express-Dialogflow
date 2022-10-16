@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -L server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^5.2.1",
+    "axios": "^1.1.2",
+    "cors": "^2.8.5",
+    "dialogflow-fulfillment": "^0.6.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-oauth-jwt": "^0.2.0",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.0",
+    "vim": "^0.1.0"
+  }
+}
