@@ -9,7 +9,7 @@ In order to use this you need a dialogflow account with api enabled and a servic
 the city, which is of type @sys.geo-city. Of course, you don't need to actually use it, create your own intents and enable fullfilments for the intents you want. R
 
 You also need ngrok to create a domain that forwards all requests to your machine, dialogflow does not work with localhost. You do this simply by opening ngrok and typing:
-```ngrock http 3000```, now all requests will be sent to the server, which is listening on port 3000. Remember to add this domain to your fulfillment page in your dialogflow dashboard ( witht the webhook route part  ). You also need to active fulfillment for every intent you want to have fulfillment.
+```ngrok http 3000```, now all requests will be sent to the server, which is listening on port 3000. Remember to add this domain to your fulfillment page in your dialogflow dashboard ( witht the webhook route part  ). You also need to active fulfillment for every intent you want to have fulfillment.
 
 This is also using docker but you can work without it, just go in each folder and run ```npm install```.
 
